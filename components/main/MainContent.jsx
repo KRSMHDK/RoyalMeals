@@ -10,6 +10,7 @@ function MainContent() {
       <div className="grid grid-cols-1 gap-2 pt-5 sm:grid-cols-2 md:grid-cols-3 ">
         <div className="relative border-2 border-black w-400px h-500px">
           <Image
+            unoptimized={true}
             className=""
             src="http://placekitten.com/450/500"
             layout="fill"
@@ -17,6 +18,7 @@ function MainContent() {
         </div>
         <div className="relative border-2 border-black w-400px h-500px">
           <Image
+            unoptimized={true}
             className=""
             src="http://placekitten.com/500/500"
             layout="fill"
@@ -24,6 +26,7 @@ function MainContent() {
         </div>
         <div className="relative border-2 border-black w-400px h-500px">
           <Image
+            unoptimized={true}
             className=""
             src="http://placekitten.com/g/400/500"
             layout="fill"
